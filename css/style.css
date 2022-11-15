@@ -1,0 +1,284 @@
+/* |||||| MISE EN PAGE GENERAL |||||| */
+
+/* "Couleur : 
+Noir : #1A1A1A
+Rouge foncé : #691628
+Rose : #FF066E
+Beige : #EFCCA2
+Autre rouge : #93203D" */
+
+@font-face {
+	font-family: "Game Of Squids";
+	src: url('../fonts/Game_Of_Squids.ttf');
+}
+
+body{
+    font-family:"Game Of Squids", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fond.png);
+    background-size: cover;
+}
+
+.sang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: pluie 4s linear 0s normal;
+    transform: translateY(-30vh);
+    width: 64px;
+} 
+
+/* fonction */
+
+.flex-container{
+    display: flex;
+}
+
+/* Titre */
+
+h1{
+    /* background: linear-gradient(90deg, #93203D, #691628);
+    border-radius: 10px;
+    border: ridge 1px #EFCCA2; */
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    font-size: 20px;
+    margin-top: 108%;
+    text-align: center;
+}
+
+h2{
+    font-size: 33px;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-size: 28px;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    color: #EFCCA2;
+    margin: 0;
+}
+
+/* Bouton */
+
+/* |||||| HEADER |||||| */
+
+.click{
+    margin-top: 20px;
+}
+
+/* |||||| LIGNE |||||| */
+
+.left{
+    width: 33%;
+}
+
+.mid{
+    width: 33%;
+}
+
+.right{
+    width: 33%;
+}
+
+/* |||||| LEFT |||||| */
+
+.clicking img{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 7px black);
+}
+
+.clicking img:active{
+    scale: 1.02;
+}
+
+.clicker img{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+/* |||||| MID |||||| */
+
+.aleatoire{
+    text-align: center;
+    color: white;
+}
+
+.middiv{
+    background: linear-gradient(90deg, #93203D, #691628);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 13%;
+    margin-top: 1%;
+    border-radius: 20px;
+    border: ridge 5px #EFCCA2;
+    box-shadow: 0px 0px 5px black;
+}
+
+.middiv:hover{
+    background: linear-gradient(90deg, #93203D, #691628);
+    border: ridge 5px #EFCCA2;
+    scale: 1.02;
+}
+
+.midtexte{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.mid p{
+    color: #FF066E;
+    font-size: 20px;
+    margin: 0;
+}
+
+.iconetue{
+    width: 33%;
+    justify-content: left;
+}
+
+.mid img{
+    width: 110%;
+}
+
+/* |||||| RIGHT |||||| */
+
+/* mate */
+.matediv{
+    background: linear-gradient(90deg, #93203D, #691628);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 17%;
+    margin-bottom: 100px;
+    margin-top: 75px;
+    border-radius: 25px;
+    border: ridge 5px #EFCCA2;
+    box-shadow: 0px 0px 5px black;
+}
+
+.matediv:hover{
+    background: linear-gradient(90deg, #93203D, #691628);
+    border: ridge 5px #EFCCA2;
+    scale: 1.02;
+}
+
+.matetexte{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.matetexte p{
+    color: #FF066E;
+    font-size: 25px;
+    margin: 0;
+}
+
+.iconemate{
+    width: 35%;
+    justify-content: left;
+}
+
+.iconemate img{
+    width: 118%;
+}
+
+/* triche */
+.trichediv{
+    background: linear-gradient(90deg, #93203D, #691628);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 17%;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    border: ridge 5px #EFCCA2;
+    box-shadow: 0px 0px 5px black;
+}
+
+.trichediv:hover{
+    background: linear-gradient(90deg, #93203D, #691628);
+    border: ridge 5px #EFCCA2;
+    scale: 1.02;
+}
+
+.trichetexte{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.trichetexte p{
+    color: #FF066E;
+    font-size: 25px;
+    margin: 0;
+}
+
+.iconetriche{
+    width: 35%;
+    justify-content: left;
+}
+
+.iconetriche img{
+    width: 118%;
+}
+
+/* vip */
+.vipdiv{
+    background: linear-gradient(90deg, #93203D, #691628);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 17%;
+    border-radius: 25px;
+    border: ridge 5px #EFCCA2;
+    box-shadow: 0px 0px 5px black;
+}
+
+.vipdiv:hover{
+    background: linear-gradient(90deg, #93203D, #691628);
+    border: ridge 5px #EFCCA2;
+    scale: 1.02;
+}
+
+.viptexte{
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.viptexte p{
+    color: #FF066E;
+    font-size: 25px;
+    margin: 0;
+}
+
+.iconevip{
+    width: 35%;
+    justify-content: left;
+}
+
+.iconevip img{
+    width: 118%;
+}
+/* |||||| FOOTER |||||| */
