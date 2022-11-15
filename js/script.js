@@ -55,6 +55,10 @@ function tueclick(){
         document.getElementById('vie').innerHTML = vie
        }
 }
+
+// Phrases aléatoire en haut 
+
+
 function phrase (){
     if (score > 0) {
         document.getElementById('aleatoire').innerHTML = "Squid game"
@@ -78,15 +82,3 @@ var aleatoire = Math.floor(Math.random * phrases.length);
 var final = phrases[aleatoire];
 console.log(final);
 document.getElementById('aleatoire').innerHTML = final;
-
-// const NB_SANG = 10;
-// for (let index = 0; index < NB_SANG; index++) {
-//     const element = document.createElement('img');
-//     element.src = 'images/sang.png'
-//     element.className = 'sang'
-//     x = Math.round(Math.random() * 100)
-//     y = Math.round(Math.random() * 10)
-//     element.style.left = x + 'vw';
-//     element.style.top = y + 'vh';
-//     document.querySelector('body').appendChild(element)
-// }
